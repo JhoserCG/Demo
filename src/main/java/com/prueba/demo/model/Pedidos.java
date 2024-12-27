@@ -32,6 +32,8 @@ public class Pedidos {
     private double total;
     @Column(name = "ESTADO", nullable = false)
     private String Estado;
+    @Column(name = "DESCRIPCION", nullable = false)
+    private String descripcion;
     
     
 }
